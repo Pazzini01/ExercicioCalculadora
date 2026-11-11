@@ -2,6 +2,7 @@
 using System;
 
 Console.WriteLine("=== CALCULADORA ===");
+Console.WriteLine("Bem-vindo à calculadora!");
 
 Console.Write("Digite o primeiro número: ");
 double numero1 = Convert.ToDouble(Console.ReadLine());
@@ -49,6 +50,7 @@ switch (operacao)
         break;
 
     default:
+        operacaoValida = false;
         Console.WriteLine("Operação inválida!");
         break;
 }
