@@ -2,6 +2,7 @@
 using System;
 
 Console.WriteLine("=== CALCULADORA ===");
+Console.WriteLine("Versão 1.0");
 Console.WriteLine("Bem-vindo à calculadora!");
 
 Console.Write("Digite o primeiro número: ");
